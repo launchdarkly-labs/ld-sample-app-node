@@ -1,0 +1,23 @@
+{
+  "name": "ld-sample-app-node",
+  "version": "1.0.0",
+  "description": "Sample Node App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/launchdarkly-labs/ld-sample-app-node.git"
+  },
+  "author": "kcochran@launchdarkly.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/launchdarkly-labs/ld-sample-app-node/issues"
+  },
+  "homepage": "https://github.com/launchdarkly-labs/ld-sample-app-node#readme",
+  "dependencies": {
+    "@launchdarkly/node-server-sdk": "^9.3.0",
+    "http": "^0.0.1-security"
+  }
+}
