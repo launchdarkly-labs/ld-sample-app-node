@@ -43,6 +43,7 @@ client.on("update:test-flag", () => {
 // close the ld client connectio when the server stops
 server.on("close", function () {
     console.log("Stopping server...");
+    client.flush();
     client.close();
 })
 
